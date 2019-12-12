@@ -9,7 +9,10 @@ module.exports = {
     nav: config.navigation,
   },
   head: [
-    ['link', { rel: "icon", href: config.favicon }]
+    ['link', { rel: "icon", href: config.favicon }],
+    ['link', { rel: "stylesheet", href: "https://www.w3schools.com/w3css/4/w3.css"}],
+    ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato"}],
+    ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"}]
   ],
   markdown: {
     anchor: {

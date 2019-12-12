@@ -1,33 +1,39 @@
 {
-    "title": "Acme",
-    "description": "Creative Agency",
-    "logo": "/upload/logo.svg",
-    "footer": "Ⓒ Acme",
+    "title": "AMECA",
+    "description": "与日本先端医疗协会的名医紧密结合，为精英阶层提供日本一流的医疗相关服务。",
+    "logo": "/upload/ameca-logo.png",
+    "footer": {
+      "company": "株式会社AMECA",
+      "address": "〒150-0001 東京都渋谷区神宮前１−５−８ 神宮前タワービルディング１４階",
+      "phone": "+81 3-6635-2905",
+      "email": "info@shinbridge.co.jp",
+      "copyright": "AMECA Co., Ltd. All Rights Reserved."
+    },
     "favicon": "favicon-32x32.png",
     "navigation": [
       {
-        "text": "Works",
+        "text": "业务内容",
         "link": "/",
         "position": "left",
         "external": false
       },
       {
-        "text": "Instagram",
-        "link": "https://www.instagram.com/its.nwa",
+        "text": "新闻动态",
+        "link": "/news/",
         "position": "left",
-        "external": true
+        "external": false
       },
       {
-        "text": "Say hi!",
-        "link": "mailto:sayhi@mydomain.com",
+        "text": "医疗博客",
+        "link": "/blogs/",
         "position": "right",
-        "external": true
+        "external": false
       },
       {
-        "text": "Journal",
-        "link": "/journal/",
+        "text": "公司简介",
+        "link": "/aboutus/",
         "position": "right",
         "external": false
       }
     ]
-  }
+}

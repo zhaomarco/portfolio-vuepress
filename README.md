@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="portfolio/.vuepress/public/upload/logo.svg" height="64">
+  <img src="portfolio/.vuepress/public/upload/ameca-logo.png" height="64">
   <h3 align="center">VuePress Portfolio</h3>
   <p align="center">VuePress site with portfolio and blogging pages<br>ready to deploy, and configured for Forestry (Content Management)<p>
 </p>

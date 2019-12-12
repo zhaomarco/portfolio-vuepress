@@ -17,11 +17,11 @@
 
       <!-- Single project view -->
       <div v-if="isSingleProject">
-        <SingleProjectHeader
+        <!-- <SingleProjectHeader
           :title="$page.frontmatter.title"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
-        />
+        /> -->
         <Content/>
       </div>
 
@@ -109,7 +109,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
